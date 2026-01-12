@@ -4,30 +4,30 @@
 class Wt < Formula
   desc "Git worktree manager with lifecycle hooks"
   homepage "https://github.com/agarcher/wt"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/agarcher/wt/releases/download/v0.1.0/wt-darwin-amd64.tar.gz"
-      sha256 "2c09553810552b9ca8785462fc2ae1de73dd43ec4df9c109970110f5cd60a15f"
+      url "https://github.com/agarcher/wt/releases/download/v0.2.0/wt-darwin-amd64.tar.gz"
+      sha256 "62bf7183b0f8a10eedbc560030cd0574aefa9e04cb1d9976837eafd155a9c7a3"
     end
 
     on_arm do
-      url "https://github.com/agarcher/wt/releases/download/v0.1.0/wt-darwin-arm64.tar.gz"
-      sha256 "c3778b44e9d684ecc4ade4130fcc6fa3c85d7238ddff918e97ef0b403b3fe65b"
+      url "https://github.com/agarcher/wt/releases/download/v0.2.0/wt-darwin-arm64.tar.gz"
+      sha256 "c51ea4c7a6d40360e1b0e330fdab6705152e40e5bca9b6631a19b26338ae58ea"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agarcher/wt/releases/download/v0.1.0/wt-linux-amd64.tar.gz"
-      sha256 "5a58ea2b289c88434154df114fe9a1123fcda5a3e2ccfd5af5c1f569a2d7b852"
+      url "https://github.com/agarcher/wt/releases/download/v0.2.0/wt-linux-amd64.tar.gz"
+      sha256 "81b153fe39413a4979d9cc66c76fa66ec65b7a87369d1ce6c6025ebbfa3910d4"
     end
 
     on_arm do
-      url "https://github.com/agarcher/wt/releases/download/v0.1.0/wt-linux-arm64.tar.gz"
-      sha256 "38e267c98cb7c6515a34fdb7b1f5dffaef7329617d57a03059e36ea02a5e848c"
+      url "https://github.com/agarcher/wt/releases/download/v0.2.0/wt-linux-arm64.tar.gz"
+      sha256 "8685719e8fb2aef96569bd287fcd74a4df6652cc1a05b644276b77048336408e"
     end
   end
 
